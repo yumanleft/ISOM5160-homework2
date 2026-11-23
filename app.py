@@ -36,7 +36,7 @@ SECRET PHRASE (must appear on the app page): ISOM5160-HW2-SMS
 # Q1. Who is the primary business user of this app?
 #     (one short sentence; e.g., an employee or a security analyst reviewing
 #      inbound SMS for spam or scam-like messages)
-#   YOUR_ANSWER: The primary business user is an enterprise security operations analyst or a customer support representative who monitor and review inbound SMS traffic to filter out malicious spam or fraudulent sms phishing messages.
+#   YOUR_ANSWER: The primary business user is an enterprise security operations analyst and customer support service staff who need to monitor and review inbound SMS traffic to filter out malicious spam or fraudulent sms phishing messages.
 #
 # Q2. Look at the accuracy from your 100-sample test. Is accuracy enough
 #     for a business to rely on this app, and why or why not?
@@ -44,8 +44,10 @@ SECRET PHRASE (must appear on the app page): ISOM5160-HW2-SMS
 #     YOUR app run. Comment on the cost of a false positive (blocking a
 #     legitimate SMS, such as a bank or one-time code message) versus a
 #     false negative (missing a spam or scam-like message).
-#   YOUR_ANSWER: Based on my app run, the 100-sample test achieved an accuracy of 99.00%. While this high accuracy seems reliable, accuracy alone is insufficient for critical business operations because the business cost of a false positive (blocking a legitimate OTP or bank notification) is exceptionally high in terms of customer trust. 
-#   Conversely, a false negative allows phishing scams to slip through, exposing users to financial fraud, meaning the model's precision and recall profiles must be analyzed further before full business deployment.
+#   YOUR_ANSWER: Based on my app run, the 100-sample test achieved an accuracy of 99.00%. 
+#   While this high accuracy seems reliable, accuracy alone is insufficient for critical business operations,
+#   the business cost of a false positive is exceptionally high in terms of customer trust, for example, the false blocking for a legitimate One Time Password or ebanking notification. 
+#   False negative allows phishing scams to slip through, exposing users to financial fraud, meaning the model's precision and recall profiles must be analyzed further before full business deployment.
 #
 # =============================================================================
 
